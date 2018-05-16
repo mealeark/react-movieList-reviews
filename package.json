@@ -1,0 +1,35 @@
+{
+  "name": "react-movieList-reviews",
+  "version": "1.0.0",
+  "description": "Practice React app. Search for your favorite movies, then see the reviews!",
+  "scripts": {
+    "start": "live-server dist/",
+    "react-dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.2.6",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-import": "^2.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "live-server": "^1.2.0",
+    "nodemon": "^1.17.4"
+  }
+}
