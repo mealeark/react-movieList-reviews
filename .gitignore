@@ -7,3 +7,7 @@ node_modules/
 ## API keys ##
 src/config/omdb.js
 src/config/nytimes.js
+
+## compiled files ##
+dist/index.html
+dist/main.js
