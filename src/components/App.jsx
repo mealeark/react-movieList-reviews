@@ -19,12 +19,12 @@ class App extends Component {
     super(props);
     this.state = {
 
-    }
+    };
 
   }
 
   render() {
-    return(
+    return (
       <Wrapper>
         <h1>This is where the app will go!</h1>
       </Wrapper>
