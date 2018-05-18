@@ -37,6 +37,7 @@ Practice React project
   + Usage:
     + http://www.omdbapi.com/?apikey=[yourkey]&
     + http://api.nytimes.com/svc/movies/v2/reviews/search.json
+    + **YOU GET TO DECIDE WHAT DATA YOU WANT TO USE IN YOUR COMPONENTS**
   + Fix config files by removing the ‘example’ in the filename then adding api keys
 
 5. Npm run react-dev (to compile code)
