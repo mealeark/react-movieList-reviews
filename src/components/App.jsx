@@ -3,9 +3,8 @@ import ReactDOM from "react-dom";
 import styled from 'styled-components';
 
 import MovieList from './MovieList.jsx';
-import MovieListItem from './MovieListItem.jsx';
-import MovieReviews from './MovieReviews.jsx';
 import Search from './Search.jsx';
+import Container from './Container.jsx';
 
 const Wrapper = styled.div`
   display: flex;
@@ -18,7 +17,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      movieList: [],
+      movie: {},
+      reviews: {}
     };
 
   }
@@ -26,7 +27,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <h1>This is where the app will go!</h1>
+        <Search />
+        <Container />
+        <MovieList />
       </Wrapper>
     );
   }
