@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import styled from 'styled-components';
+import {Container, Row, Col} from 'reactstrap';
 
 import MovieList from './MovieList.jsx';
 import MovieListItem from './MovieListItem.jsx';
 import MovieReviews from './MovieReviews.jsx';
 import Search from './Search.jsx';
+
 
 const Wrapper = styled.div`
   display: flex;
@@ -18,19 +20,25 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      movies: ['hello']
     };
-
   }
+
+  // handleClick(movie) {
+  //   this.setState({movie: movie});
+  // }
 
   render() {
     return (
       <Wrapper>
-        <h1>This is where the app will go!</h1>
+
+          <MovieList movies={this.state.movies} />
+
       </Wrapper>
     );
   }
 }
+
 
 export default App;
 ReactDOM.render(<App />, document.getElementById("app"));
